@@ -1,4 +1,5 @@
 import time
+import sys
 
 
 def KMPSearch(pat, txt):
@@ -66,7 +67,7 @@ def computeLPSArray(pat, M, lps):
                 i += 1
 
 # txt = "ABABDABACDABABCABAB"
-pat = "456765"
+pat = sys.argv[1]
 st = time.time()
 KMPSearch(pat, "./pi.txt")
 et = time.time()
