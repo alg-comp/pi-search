@@ -1,7 +1,4 @@
 #! /usr/local/bin/python3.6
-"""
-PI Computation by Binary Splitting Algorithm with GMP libarary
-"""
 import math
 import sys
 import traceback
@@ -43,11 +40,6 @@ class PiChudnovsky:
             raise
 
     def __bsa(self, a, b):
-        """ PQT computation by BSA(= Binary Splitting Algorithm)
-        :param int a: positive integer
-        :param int b: positive integer
-        :return list [int p_ab, int q_ab, int t_ab]
-        """
         try:
             if a + 1 == b:
                 if a == 0:
@@ -72,7 +64,7 @@ class PiChudnovsky:
 
 def CalculatePi():
     try:
-        digits = 100000000
+        digits = sys.argv[1]
         print("#### PI COMPUTATION ( {} digits )".format(digits))
         obj = PiChudnovsky(digits)
         tm = obj.compute()
