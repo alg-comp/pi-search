@@ -1,0 +1,5 @@
+# ninja log v5
+1	1717	6919106013179939	CMakeFiles/pi-search.dir/pi-search.cpp.obj	36910c4432234d4f
+0	16	0	clean	8c45b54705a541e8
+7	2334	6919092635230403	CMakeFiles/pi-search.dir/generate-pi.cpp.obj	d6a9bf1f5b3c590
+1718	2747	6919106016499918	pi-search.exe	8664293dbe657e22

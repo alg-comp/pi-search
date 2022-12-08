@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if [[ ! -s pi.txt ]]; then
-    python3.exe chudnovsky-binary-splitting.py
-fi
-
-python3 kmp.py 12312

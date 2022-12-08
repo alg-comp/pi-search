@@ -1,5 +1,4 @@
 import time
-import sys
 
 
 def KMPSearch(pat, txt):
